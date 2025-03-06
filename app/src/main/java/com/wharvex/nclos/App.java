@@ -14,4 +14,8 @@ public class App {
         OutputHelper.debugPrint("END EXECUTION TRACE");
         System.exit(0);
     }
+
+    public String getGreeting() {
+        return "hey";
+    }
 }
